@@ -10,4 +10,9 @@ public class HomeController {
     public String index(){
         return "Nguyễn Hoàng Hải Dep Trai";
     }
+
+    @RequestMapping("/index")
+    public String aaaa(){
+        return "Nguyễn Hoàng Hải Dep 22222";
+    }
 }
