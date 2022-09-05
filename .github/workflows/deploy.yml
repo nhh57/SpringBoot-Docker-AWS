@@ -70,7 +70,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: artifact
-          path: target/springboot-docker-aws.jar
+          path: target/springboot-docker-aws-0.0.1-SNAPSHOT.jar
   deploy:
     needs: build
     name: Deploy
@@ -92,5 +92,5 @@ jobs:
           environment_name: Springbootdockerawsnew05092022-env
           version_label: ${{github.SHA}}
           region: us-east-1
-          deployment_package: springboot-docker-aws.jar
+          deployment_package: springboot-docker-aws-0.0.1-SNAPSHOT.jar
 
