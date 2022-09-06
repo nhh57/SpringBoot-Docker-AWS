@@ -14,4 +14,9 @@ public class HomeController {
     public String aaaa(){
         return "Nguyễn Hoàng Hải Dep 111111111111";
     }
+
+    @RequestMapping("/index_1")
+    public String bbbb(){
+        return "Nguyễn Hoàng Hải Dep bbbb";
+    }
 }
